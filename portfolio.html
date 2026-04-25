@@ -9,510 +9,562 @@
     <title>Abdujabborov Yahyobek | Python Backend Developer</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="imgs/img.png" type="image/x-icon">
+    <link rel="shortcut icon" href="static/imgs/img.png" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    <main>
-        <aside class="sidebar" data-sidebar>
-            <div class="sidebar-info">
-                <figure class="avatar-box">
-                    <img src="imgs/img_1.png" alt="Abdujabborov Yahyobek avatar" loading="lazy">
-                </figure>
+<main>
+    <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+            <figure class="avatar-box">
+                <img src="static/imgs/img_1.png" alt="Abdujabborov Yahyobek avatar" loading="lazy">
+            </figure>
 
-                <div class="info-content">
-                    <h1 class="name" title="Abdujabborov Yahyobek">Abdujabborov Yahyobek</h1>
-                    <p class="title">Python Backend Developer</p>
-                </div>
-
-                <button class="info-more-btn" data-sidebar-btn aria-label="Show contacts">
-                    <span>Show Contacts</span>
-                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                </button>
+            <div class="info-content">
+                <h1 class="name" title="Abdujabborov Yahyobek">Abdujabborov Yahyobek</h1>
+                <p class="title">Python Backend Developer</p>
             </div>
 
-            <div class="sidebar-info-more">
-                <div class="separator"></div>
+            <button class="info-more-btn" data-sidebar-btn aria-label="Show contacts">
+                <span>Show Contacts</span>
+                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+            </button>
+        </div>
 
-                <ul class="contacts-list">
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        <div class="sidebar-info-more">
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+                        <a href="mailto:abdujabborovyahyobek44@gmail.com?subject=Salomlashuvular%20Jigar%20bilan&body=Assalamu%20alaikum%20Jigar%2C%0A%0A%0ARahmat"
+                           class="contact-link">
+                            abdujabborovyahyobek44@gmail.com
+                        </a>
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Phone</p>
+                        <a href="tel:+998907763722" class="contact-link">+998 90 (776) 37 22</a>
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
+                        <time datetime="2009-11-08">November 8, 2009</time>
+                    </div>
+                </li>
+
+                <li class="contact-item">
+                    <div class="icon-box">
+                        <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>Fergana, Uzbekistan</address>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+                <li class="social-item">
+                    <a href="https://www.facebook.com/share/1BgJB6bHnr/" class="social-link" aria-label="Facebook">
+                        <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://github.com/abdulazizweb09" class="social-link" aria-label="GitHub">
+                        <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="https://www.instagram.com/naru_to8275/" class="social-link" aria-label="Instagram">
+                        <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="main-content">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>About</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Blog</button>
+                </li>
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- ABOUT PAGE -->
+        <article class="about active" data-page="about">
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>I am a Python Backend Developer from Uzbekistan (Fergana). I specialize in building robust, scalable
+                    server-side applications and APIs. I like to turn complex problems into simple, beautiful and
+                    easy-to-understand code.</p>
+                <p>My job is to create efficient backend systems that are functional, reliable, and well-structured. I
+                    ensure clean code architecture, proper database design, and seamless integration with frontend
+                    systems. My goal is to deliver high-quality solutions that meet your business needs while
+                    maintaining code excellence.</p>
+            </section>
+
+            <section class="service">
+                <h3 class="h3 service-title">What I'm doing</h3>
+
+                <ul class="service-list">
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="Backend development icon"
+                                 width="40" height="40" loading="lazy">
                         </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
-                            <a href="mailto:abdujabborovyahyobek44@gmail.com?subject=Salomlashuvular%20Jigar%20bilan&body=Assalamu%20alaikum%20Jigar%2C%0A%0A%0ARahmat" class="contact-link">
-                                abdujabborovyahyobek44@gmail.com
-                            </a>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Backend Web Development</h4>
+                            <p class="service-item-text">Professional Python backend development with Django, FastAPI,
+                                and other modern frameworks.</p>
                         </div>
                     </li>
 
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline" aria-hidden="true"></ion-icon>
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="API development icon" width="40"
+                                 height="40" loading="lazy">
                         </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-                            <a href="tel:+998907763722" class="contact-link">+998 90 (776) 37 22</a>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Birthday</p>
-                            <time datetime="2009-11-08">November 8, 2009</time>
-                        </div>
-                    </li>
-
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
-                            <address>Fergana, Uzbekistan</address>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">REST API Development</h4>
+                            <p class="service-item-text">Building scalable and secure APIs for web and mobile
+                                applications.</p>
                         </div>
                     </li>
                 </ul>
+            </section>
 
-                <div class="separator"></div>
+            <section class="testimonials">
+                <h3 class="h3 testimonials-title">Testimonials</h3>
 
-                <ul class="social-list">
-                    <li class="social-item">
-                        <a href="https://www.facebook.com/share/1BgJB6bHnr/" class="social-link" aria-label="Facebook">
-                            <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="https://github.com/abdulazizweb09" class="social-link" aria-label="GitHub">
-                            <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="https://www.instagram.com/naru_to8275/" class="social-link" aria-label="Instagram">
-                            <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-
-        <div class="main-content">
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
-                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
-                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
-                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
-                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
-                </ul>
-            </nav>
-
-            <!-- ABOUT PAGE -->
-            <article class="about active" data-page="about">
-                <header>
-                    <h2 class="h2 article-title">About me</h2>
-                </header>
-
-                <section class="about-text">
-                    <p>I am a Python Backend Developer from Uzbekistan (Fergana). I specialize in building robust, scalable server-side applications and APIs. I like to turn complex problems into simple, beautiful and easy-to-understand code.</p>
-                    <p>My job is to create efficient backend systems that are functional, reliable, and well-structured. I ensure clean code architecture, proper database design, and seamless integration with frontend systems. My goal is to deliver high-quality solutions that meet your business needs while maintaining code excellence.</p>
-                </section>
-
-                <section class="service">
-                    <h3 class="h3 service-title">What I'm doing</h3>
-
-                    <ul class="service-list">
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="Backend development icon" width="40" height="40" loading="lazy">
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Backend Web Development</h4>
-                                <p class="service-item-text">Professional Python backend development with Django, FastAPI, and other modern frameworks.</p>
-                            </div>
-                        </li>
-
-                        <li class="service-item">
-                            <div class="service-icon-box">
-                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="API development icon" width="40" height="40" loading="lazy">
-                            </div>
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">REST API Development</h4>
-                                <p class="service-item-text">Building scalable and secure APIs for web and mobile applications.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="testimonials">
-                    <h3 class="h3 testimonials-title">Testimonials</h3>
-
-                    <ul class="testimonials-list has-scrollbar">
-                        <li class="testimonials-item">
-                            <div class="content-card" data-testimonials-item>
-                                <figure class="testimonials-avatar-box">
-                                    <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Toshmuhammad Rafiqov" data-testimonials-avatar width="60" height="60" loading="lazy">
-                                </figure>
-                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Toshmuhammad Rafiqov</h4>
-                                <div class="testimonials-text" data-testimonials-text>
-                                    <p>I studied with Abdujabborov at Najot Talim educational center. He was active in class, completed homework quickly, and was one of the most advanced students in our group.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="testimonials-item">
-                            <div class="content-card" data-testimonials-item>
-                                <figure class="testimonials-avatar-box">
-                                    <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="Marjona Toraqulova" data-testimonials-avatar width="60" height="60" loading="lazy">
-                                </figure>
-                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Marjona Toraqulova</h4>
-                                <div class="testimonials-text" data-testimonials-text>
-                                    <p>Working with Yahyobek was an absolute pleasure. I was impressed with his attention to detail, coding skills, and professional approach to timelines and processes.</p>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="testimonials-item">
-                            <div class="content-card" data-testimonials-item>
-                                <figure class="testimonials-avatar-box">
-                                    <img src="https://i.postimg.cc/zXv1Xv81/avatar-4.png" alt="Marufjonov Rozimuhammad" data-testimonials-avatar width="60" height="60" loading="lazy">
-                                </figure>
-                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Marufjonov Rozimuhammad</h4>
-                                <div class="testimonials-text" data-testimonials-text>
-                                    <p>I was overwhelmed with the thought of redesigning my system, but Yahyobek made the process seamless. The backend is robust and well-structured. I've seen significant improvements in performance!</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-
-                <div class="modal-container" data-modal-container>
-                    <div class="overlay" data-overlay></div>
-                    <section class="testimonials-modal">
-                        <button class="modal-close-btn" data-modal-close-btn aria-label="Close modal">
-                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                        </button>
-                        <div class="modal-img-wrapper">
-                            <figure class="modal-avatar-box">
-                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Testimonial avatar" width="80" height="80" data-modal-img loading="lazy">
+                <ul class="testimonials-list has-scrollbar">
+                    <li class="testimonials-item">
+                        <div class="content-card" data-testimonials-item>
+                            <figure class="testimonials-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Toshmuhammad Rafiqov"
+                                     data-testimonials-avatar width="60" height="60" loading="lazy">
                             </figure>
-                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="Quote icon" width="40" height="40" loading="lazy">
-                        </div>
-                        <div class="modal-content">
-                            <h4 class="h3 modal-title" data-modal-title>Testimonial Name</h4>
-                            <time datetime="2023-06-14">14 June, 2023</time>
-                            <div class="modal-text" data-modal-text>
-                                <p>Testimonial text will appear here...</p>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Toshmuhammad Rafiqov</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>I studied with Abdujabborov at Najot Talim educational center. He was active in
+                                    class, completed homework quickly, and was one of the most advanced students in our
+                                    group.</p>
                             </div>
                         </div>
-                    </section>
+                    </li>
+
+                    <li class="testimonials-item">
+                        <div class="content-card" data-testimonials-item>
+                            <figure class="testimonials-avatar-box">
+                                <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="Marjona Toraqulova"
+                                     data-testimonials-avatar width="60" height="60" loading="lazy">
+                            </figure>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Marjona Toraqulova</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>Working with Yahyobek was an absolute pleasure. I was impressed with his attention to
+                                    detail, coding skills, and professional approach to timelines and processes.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="testimonials-item">
+                        <div class="content-card" data-testimonials-item>
+                            <figure class="testimonials-avatar-box">
+                                <img src="https://i.postimg.cc/zXv1Xv81/avatar-4.png" alt="Marufjonov Rozimuhammad"
+                                     data-testimonials-avatar width="60" height="60" loading="lazy">
+                            </figure>
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Marufjonov Rozimuhammad</h4>
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>I was overwhelmed with the thought of redesigning my system, but Yahyobek made the
+                                    process seamless. The backend is robust and well-structured. I've seen significant
+                                    improvements in performance!</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="modal-container" data-modal-container>
+                <div class="overlay" data-overlay></div>
+                <section class="testimonials-modal">
+                    <button class="modal-close-btn" data-modal-close-btn aria-label="Close modal">
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                    <div class="modal-img-wrapper">
+                        <figure class="modal-avatar-box">
+                            <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Testimonial avatar" width="80"
+                                 height="80" data-modal-img loading="lazy">
+                        </figure>
+                        <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="Quote icon" width="40" height="40"
+                             loading="lazy">
+                    </div>
+                    <div class="modal-content">
+                        <h4 class="h3 modal-title" data-modal-title>Testimonial Name</h4>
+                        <time datetime="2023-06-14">14 June, 2023</time>
+                        <div class="modal-text" data-modal-text>
+                            <p>Testimonial text will appear here...</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="clients">
+                <h3 class="h3 clients-title">Clients</h3>
+                <ul class="clients-list has-scrollbar">
+                    <li class="clients-item">
+                        <p class="h4 service-item-title">Available for projects. Contact me for collaboration!</p>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <!-- RESUME PAGE -->
+        <article class="resume" data-page="resume">
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h3">Education</h3>
                 </div>
 
-                <section class="clients">
-                    <h3 class="h3 clients-title">Clients</h3>
-                    <ul class="clients-list has-scrollbar">
-                        <li class="clients-item">
-                            <p class="h4 service-item-title">Available for projects. Contact me for collaboration!</p>
-                        </li>
-                    </ul>
-                </section>
-            </article>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Secondary School</h4>
+                        <span>2020 - 2023</span>
+                        <p class="timeline-text">Started programming basics and attended computer science classes.
+                            Developed foundational knowledge in algorithms and programming logic.</p>
+                    </li>
 
-            <!-- RESUME PAGE -->
-            <article class="resume" data-page="resume">
-                <header>
-                    <h2 class="h2 article-title">Resume</h2>
-                </header>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">World Center of Knowledge</h4>
+                        <span>2023 - 2024</span>
+                        <p class="timeline-text">Completed first programming course. Built my first websites and gained
+                            practical experience in web development and problem-solving.</p>
+                    </li>
 
-                <section class="timeline">
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="book-outline" aria-hidden="true"></ion-icon>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Najot Talim - Advanced Course</h4>
+                        <span>2024 - 2025</span>
+                        <p class="timeline-text">Advanced training in web development and backend technologies.
+                            Transformed from beginner to professional developer capable of handling complex
+                            projects.</p>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h3">Experience</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Mentor & Project Development</h4>
+                        <span>2022 - Present</span>
+                        <p class="timeline-text">Mentoring junior developers in programming fundamentals. Managing
+                            development teams and creating diverse projects to enhance technical skills.</p>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Backend Architecture & Design</h4>
+                        <span>2023 - 2025</span>
+                        <p class="timeline-text">Designing and developing backend systems, REST APIs, and database
+                            schemas. Focus on scalability, security, and code quality.</p>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Full Stack Development</h4>
+                        <span>2024 - Present</span>
+                        <p class="timeline-text">Building complete web applications with emphasis on backend excellence.
+                            Integrating frontend and backend systems for optimal performance.</p>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="skill">
+                <h3 class="h3 skills-title">My Skills</h3>
+
+                <ul class="skills-list content-card">
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Python</h5>
+                            <data value="90">90%</data>
                         </div>
-                        <h3 class="h3">Education</h3>
-                    </div>
-
-                    <ol class="timeline-list">
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Secondary School</h4>
-                            <span>2020 - 2023</span>
-                            <p class="timeline-text">Started programming basics and attended computer science classes. Developed foundational knowledge in algorithms and programming logic.</p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">World Center of Knowledge</h4>
-                            <span>2023 - 2024</span>
-                            <p class="timeline-text">Completed first programming course. Built my first websites and gained practical experience in web development and problem-solving.</p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Najot Talim - Advanced Course</h4>
-                            <span>2024 - 2025</span>
-                            <p class="timeline-text">Advanced training in web development and backend technologies. Transformed from beginner to professional developer capable of handling complex projects.</p>
-                        </li>
-                    </ol>
-                </section>
-
-                <section class="timeline">
-                    <div class="title-wrapper">
-                        <div class="icon-box">
-                            <ion-icon name="briefcase-outline" aria-hidden="true"></ion-icon>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 90%;"></div>
                         </div>
-                        <h3 class="h3">Experience</h3>
-                    </div>
+                    </li>
 
-                    <ol class="timeline-list">
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Mentor & Project Development</h4>
-                            <span>2022 - Present</span>
-                            <p class="timeline-text">Mentoring junior developers in programming fundamentals. Managing development teams and creating diverse projects to enhance technical skills.</p>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Django & DRF</h5>
+                            <data value="85">85%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">FastAPI</h5>
+                            <data value="80">80%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">PostgreSQL</h5>
+                            <data value="85">85%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 85%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">RESTful APIs</h5>
+                            <data value="88">88%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 88%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Frontend (HTML/CSS/JS)</h5>
+                            <data value="75">75%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 75%;"></div>
+                        </div>
+                    </li>
+
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Docker & Deployment</h5>
+                            <data value="70">70%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                            <div class="skills-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <!-- PORTFOLIO PAGE -->
+        <article class="portfolio" data-page="portfolio">
+            <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+                <ul class="filter-list">
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+                    <li class="filter-item">
+                        <button data-filter-btn>Web Development</button>
+                    </li>
+                </ul>
+
+                <div class="filter-select-box">
+                    <button class="filter-select" data-select>
+                        <div class="select-value" data-select-value>Select Category</div>
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="select-list">
+                        <li class="select-item">
+                            <button data-select-item>All</button>
                         </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Backend Architecture & Design</h4>
-                            <span>2023 - 2025</span>
-                            <p class="timeline-text">Designing and developing backend systems, REST APIs, and database schemas. Focus on scalability, security, and code quality.</p>
-                        </li>
-
-                        <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Full Stack Development</h4>
-                            <span>2024 - Present</span>
-                            <p class="timeline-text">Building complete web applications with emphasis on backend excellence. Integrating frontend and backend systems for optimal performance.</p>
-                        </li>
-                    </ol>
-                </section>
-
-                <section class="skill">
-                    <h3 class="h3 skills-title">My Skills</h3>
-
-                    <ul class="skills-list content-card">
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Python</h5>
-                                <data value="90">90%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 90%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Django & DRF</h5>
-                                <data value="85">85%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 85%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">FastAPI</h5>
-                                <data value="80">80%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 80%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">PostgreSQL</h5>
-                                <data value="85">85%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 85%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">RESTful APIs</h5>
-                                <data value="88">88%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 88%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Frontend (HTML/CSS/JS)</h5>
-                                <data value="75">75%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 75%;"></div>
-                            </div>
-                        </li>
-
-                        <li class="skills-item">
-                            <div class="title-wrapper">
-                                <h5 class="h5">Docker & Deployment</h5>
-                                <data value="70">70%</data>
-                            </div>
-                            <div class="skills-progress-bg">
-                                <div class="skills-progress-fill" style="width: 70%;"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-
-            <!-- PORTFOLIO PAGE -->
-            <article class="portfolio" data-page="portfolio">
-                <header>
-                    <h2 class="h2 article-title">Portfolio</h2>
-                </header>
-
-                <section class="projects">
-                    <ul class="filter-list">
-                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
-                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
-                    </ul>
-
-                    <div class="filter-select-box">
-                        <button class="filter-select" data-select>
-                            <div class="select-value" data-select-value>Select Category</div>
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
-                            </div>
-                        </button>
-
-                        <ul class="select-list">
-                            <li class="select-item"><button data-select-item>All</button></li>
-                            <li class="select-item"><button data-select-item>Web Development</button></li>
-                        </ul>
-                    </div>
-
-                    <ul class="project-list">
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="https://zaraki.ct.ws/">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                                    </div>
-                                    <img src="./imgs/poster.png" alt="Anime website project" loading="lazy" width="300" height="250">
-                                </figure>
-                                <h3 class="project-title">Anime</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="https://invoice-web-app-react.vercel.app/">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                                    </div>
-                                    <img src="./imgs/finance.png" alt="Finance application project" loading="lazy" width="300" height="250">
-                                </figure>
-                                <h3 class="project-title">Finance</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="https://uzum-1wx9.vercel.app/">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                                    </div>
-                                    <img src="./imgs/pUW8cv16847430816132_l.jpg" alt="Uzum Market e-commerce project" loading="lazy" width="300" height="250">
-                                </figure>
-                                <h3 class="project-title">Uzum Market</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="https://mhnoor-comfy-store.netlify.app/">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                                    </div>
-                                    <img src="./imgs/photo_2025-07-12_11-51-27.jpg" alt="Comfy Store furniture project" loading="lazy" width="300" height="250">
-                                </figure>
-                                <h3 class="project-title">Comfy Store</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="#">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                                    </div>
-                                    <img src="./imgs/zentry.jpg" alt="Zentry project" loading="lazy" width="300" height="250">
-                                </figure>
-                                <h3 class="project-title">Zentry</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
-                        </li>
-
-                        <li class="project-item active" data-filter-item data-category="web development">
-                            <a href="https://404-page-mu-three.vercel.app/">
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
-                                    </div>
-                                    <img src="./imgs/404.jpg" alt="404 error page project" loading="lazy" width="300" height="250">
-                                </figure>
-                                <h3 class="project-title">404-page</h3>
-                                <p class="project-category">Web Development</p>
-                            </a>
+                        <li class="select-item">
+                            <button data-select-item>Web Development</button>
                         </li>
                     </ul>
-                </section>
-            </article>
+                </div>
 
-            <!-- BLOG PAGE -->
-            <article class="blog" data-page="blog">
-                <header>
-                    <h2 class="h2 article-title">Blog</h2>
-                </header>
+                <ul class="project-list">
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="https://zaraki.ct.ws/">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <img src="static/imgs/poster.png" alt="Anime website project" loading="lazy" width="300"
+                                     height="250">
+                            </figure>
+                            <h3 class="project-title">Anime</h3>
+                            <p class="project-category">Web Development</p>
+                        </a>
+                    </li>
 
-                <section class="blog-coming-soon">
-                    <div class="coming-soon-content">
-                        <ion-icon name="construct-outline" class="coming-soon-icon" aria-hidden="true"></ion-icon>
-                        <h3 class="h3">Blog Coming Soon</h3>
-                        <p>The blog section is under development. Check back soon for articles on backend development, Python, and web technologies. 👨‍💻</p>
-                    </div>
-                </section>
-            </article>
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="https://invoice-web-app-react.vercel.app/">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <img src="static/imgs/finance.png" alt="Finance application project" loading="lazy"
+                                     width="300" height="250">
+                            </figure>
+                            <h3 class="project-title">Finance</h3>
+                            <p class="project-category">Web Development</p>
+                        </a>
+                    </li>
 
-            <!-- CONTACT PAGE -->
-            <article class="contact" data-page="contact">
-                <header>
-                    <h2 class="h2 article-title">Contact</h2>
-                </header>
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="https://uzum-1wx9.vercel.app/">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <img src="static/imgs/pUW8cv16847430816132_l.jpg" alt="Uzum Market e-commerce project"
+                                     loading="lazy" width="300" height="250">
+                            </figure>
+                            <h3 class="project-title">Uzum Market</h3>
+                            <p class="project-category">Web Development</p>
+                        </a>
+                    </li>
 
-                <section class="mapbox" data-mapbox>
-                    <figure>
-                        <iframe
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="https://mhnoor-comfy-store.netlify.app/">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <img src="static/imgs/photo_2025-07-12_11-51-27.jpg" alt="Comfy Store furniture project"
+                                     loading="lazy" width="300" height="250">
+                            </figure>
+                            <h3 class="project-title">Comfy Store</h3>
+                            <p class="project-category">Web Development</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="#">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <img src="static/imgs/zentry.jpg" alt="Zentry project" loading="lazy" width="300"
+                                     height="250">
+                            </figure>
+                            <h3 class="project-title">Zentry</h3>
+                            <p class="project-category">Web Development</p>
+                        </a>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="web development">
+                        <a href="https://404-page-mu-three.vercel.app/">
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <img src="static/imgs/404.jpg" alt="404 error page project" loading="lazy" width="300"
+                                     height="250">
+                            </figure>
+                            <h3 class="project-title">404-page</h3>
+                            <p class="project-category">Web Development</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <!-- BLOG PAGE -->
+        <article class="blog" data-page="blog">
+            <header>
+                <h2 class="h2 article-title">Blog</h2>
+            </header>
+
+            <section class="blog-coming-soon">
+                <div class="coming-soon-content">
+                    <ion-icon name="construct-outline" class="coming-soon-icon" aria-hidden="true"></ion-icon>
+                    <h3 class="h3">Blog Coming Soon</h3>
+                    <p>The blog section is under development. Check back soon for articles on backend development,
+                        Python, and web technologies. 👨‍💻</p>
+                </div>
+            </section>
+        </article>
+
+        <!-- CONTACT PAGE -->
+        <article class="contact" data-page="contact">
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23099.378951959603!2d71.49876160000001!3d40.414908249999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2s!4v1752305801890"
                             style="width: 100%; height: 400px; border: 0; border-radius: 8px;"
                             allowfullscreen=""
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
                             title="Fergana, Uzbekistan location map">
-                        </iframe>
-                    </figure>
-                </section>
+                    </iframe>
+                </figure>
+            </section>
 
-                <section class="contact-form">
-                    <h3 class="h3 form-title">Contact Form</h3>
+            <section class="contact-form">
+                <h3 class="h3 form-title">Contact Form</h3>
 
-                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="form" data-form>
-                        <div class="input-wrapper">
-                            <input
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="form" data-form>
+                    <div class="input-wrapper">
+                        <input
                                 type="text"
                                 name="fullname"
                                 class="form-input"
@@ -520,7 +572,7 @@
                                 required
                                 data-form-input
                                 aria-label="Full name">
-                            <input
+                        <input
                                 type="email"
                                 name="email"
                                 class="form-input"
@@ -528,9 +580,9 @@
                                 required
                                 data-form-input
                                 aria-label="Email address">
-                        </div>
+                    </div>
 
-                        <textarea
+                    <textarea
                             name="message"
                             class="form-input"
                             placeholder="Your Message"
@@ -539,21 +591,21 @@
                             aria-label="Message">
                         </textarea>
 
-                        <button class="form-btn" type="submit" data-form-btn>
-                            <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
-                            <span>Send Message</span>
-                        </button>
-                    </form>
-                </section>
-            </article>
-        </div>
-    </main>
+                    <button class="form-btn" type="submit" data-form-btn>
+                        <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </section>
+        </article>
+    </div>
+</main>
 
-    <!-- Ionicons Library -->
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<!-- Ionicons Library -->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <!-- Main JavaScript -->
-    <script src="main.js" defer></script>
+<!-- Main JavaScript -->
+<script src="static/main.js" defer></script>
 </body>
 </html>
